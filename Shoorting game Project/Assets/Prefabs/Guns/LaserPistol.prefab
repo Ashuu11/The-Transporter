@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1818630030802854216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3451305936640382178}
+  m_Layer: 0
+  m_Name: Muzzle flash point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3451305936640382178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818630030802854216}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0.003, y: 0.0241, z: 0.0108}
+  m_LocalScale: {x: 0.7603435, y: 0.08975416, z: 0.08975416}
+  m_Children: []
+  m_Father: {fileID: 3967727631371380353}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3391344968662376979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3967727631371380353}
+  - component: {fileID: 1641430011672031574}
+  - component: {fileID: 4784647939625704880}
+  - component: {fileID: 147095680424482842}
+  m_Layer: 0
+  m_Name: LaserPistol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3967727631371380353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391344968662376979}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0.35459495, y: -0.2177662, z: 0.49688268}
+  m_LocalScale: {x: 1.3151944, y: 11.141543, z: 11.141543}
+  m_Children:
+  - {fileID: 3451305936640382178}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 180}
+--- !u!33 &1641430011672031574
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391344968662376979}
+  m_Mesh: {fileID: -5495902117074765545, guid: 2d1660ddc52362345be6bb6edbd83611, type: 3}
+--- !u!23 &4784647939625704880
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391344968662376979}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 494f9d661af490c4ca408778f4f75728, type: 2}
+  - {fileID: 2100000, guid: 672a3e1e01a731f4fb98f8a7ac0c8402, type: 2}
+  - {fileID: 2100000, guid: 7cef0beb59ce8374398068ba90376eab, type: 2}
+  - {fileID: 2100000, guid: 15598ce4c495c624eaeabed46c142c0c, type: 2}
+  - {fileID: 2100000, guid: 3d717c486c857bd45b44462cc8c219d3, type: 2}
+  - {fileID: 2100000, guid: f195abe78576d444e9c3594e9c29a99f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &147095680424482842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391344968662376979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65476b90bfced9b429621a836369f900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunName: LaserPistol
+  gunPickUp: {fileID: 380736236769705043, guid: 68053785171501c45b6a199b6ae0ba19,
+    type: 3}
+  ammunitionType: 0
+  minimumDamage: 20
+  maximumDamage: 35
+  maximumRange: 50
+  fireRate: 5
+  muzzleFlashPoint: {fileID: 1818630030802854216}
+  muzzleFlash: {fileID: 1329845292236604, guid: d1e01029fd93eeb4ebaa83b4f02bc446,
+    type: 3}
